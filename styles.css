@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url(/images/herobackground.jpg);
+    background-size: cover;
+    color: #F1FAEE;
+    display:flex;
+    flex-direction: column;
+    height:420px;
+
+}
+
+#hero1{
+    background: #1D3557;
+    margin: 140px auto -12px;
+    padding: 3px 12px 5px;
+    border-radius: 10px;
+}
+h2{
+    width:420px;
+}
+
+#hero2{
+    background: #457B9D;
+    margin: 30px auto;
+    padding: 6px 24px;
+    border-radius:10px;
+}
+
+h3{
+    margin:0px auto;
+    padding: 24px 0px;
+    width:500px;
+    color: #1D3557;
+    font-size: 1.5em;
+}
+.activites{
+    background: #F1FAEE;
+    margin: 0;
+    height:420px;
+}
+
+.activites-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.activity-pics{
+    border-radius:50%;
+    height:150px;
+    display:flex;
+    text-align:center;
+    padding: 24px;
+}
+
+.activity-txt{
+    color: #1D3557;
+    font-weight:bold;
+}
+
+p{
+    color:#457B9D;
+    width:200px;
+}
+
+.guide{
+    display:flex;
+    margin: 64px auto;
+    background: #A8DADC;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#kaiju{
+    margin: 24px 24px;
+}
+
+.guide-txt{
+    padding: 20px;
+}
+
+.kaiju{
+    border-radius: 10px;
+}
+#your-guide{
+    color: #1D3557;
+    font-size: 24px;
+    margin: 8px 0px;
+}
+
+#description{
+    color:#457B9D;
+    margin: 8px 0px;
+    font-weight:bold;
+}
+
+#name{
+    color: #1D3557;
+    font-size: 18px;
+}
